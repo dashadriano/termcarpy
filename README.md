@@ -1,5 +1,5 @@
 <h1 align="center">termcarpy 🐍</h1>
-<p align="center">A py-written car game for CLIs.</p>
+<p align="center">A py-written car game for CLIs. Work in-progress.</p>
 
 ## 🐣 Termcarpy Origins:
 
@@ -11,8 +11,6 @@ Rehauling/salvaging an old project of mine. One of the first python programs I'v
 ## ⚠ Termcarpy Background:
 Last version was a bit of a mess, not a lot of methods, as it was mainly built as it went. 
 (Totally new to Python during this time period) 
-
-
 
 Made a few changes like creating `conditions.py` for the car logic, after logging driver's name.
 
