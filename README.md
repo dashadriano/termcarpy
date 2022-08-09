@@ -1,4 +1,4 @@
-<h1 align="center">Termcarpy 🐍</h1>
+<h1 align="center">termcarpy 🐍</h1>
 <p align="center">A py-written car game for CLIs.</p>
 
 ## 🐣 Termcarpy Origins:
