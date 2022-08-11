@@ -7,8 +7,13 @@ Rehauling/salvaging an old project of mine. One of the first python programs I'v
 
 Since I made this during my introduction-to-programming days, it's strictly a *text-based* game. 
 
-## 📝 Termcarpy Explanation:
+## 📝 Termcarpy in a Nutshell:
 `termcarpy` is basically a logic-powered car game, unfortunately the UI/UX design is lacking as I was merely testing out my python logic during the creation of this. Trying to build this to be a small CLI game now. May or may not deploy it beyond the CLI, we'll see as I progress.
+
+Playing with `termcarpy` requires all three Python files: 
+`main.py` `prompts.py` `conditions.py`
+
+Starting it will give you a basic layout of the commands, interact to check out command-logic interaction.
 
 ## ⚠ Termcarpy Background:
 Last version was a bit of a mess, not a lot of methods, as it was mainly built as it went. 
