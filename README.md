@@ -1,5 +1,5 @@
 <h1 align="center">termcarpy 🐍</h1>
-<p align="center">A py-written car game for CLIs.</p>
+<p align="center">A py-written car game. Text-based.</p>
 
 ## 🐣 Termcarpy Origins:
 Rehauling/salvaging an old project of mine. One of the first python programs I've built out of boredom.
