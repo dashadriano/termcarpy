@@ -5,6 +5,8 @@
 
 Rehauling/salvaging an old project of mine. One of the first python programs I've built out of boredom.
 
+Since I made this during my introduction-to-programming days, it's strictly a *text-based* game. 
+
 ## 📝 Termcarpy Explanation:
 `termcarpy` is basically a logic-powered car game, unfortunately the UI/UX design is lacking as I was merely testing out my python logic during the creation of this. Trying to build this to be a small CLI game now. May or may not deploy it beyond the CLI, we'll see as I progress.
 
