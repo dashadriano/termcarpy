@@ -21,7 +21,6 @@ def askName():
 
     > """)
     
-
 def secondAskName():
     return input("""What's your name, driver?
 
@@ -30,20 +29,28 @@ def secondAskName():
 def welcome(driver):
     print(f"Alright! Hop in, "+driver+"!")
 
+
+
 # Start/Stop Prompts
 def start():
-    print("Car started.")
+    print("You've just started the car, nice.")
 
 def stop():
-    print("Car stopped.")
+    print("Car stopped. Why are you stopping? Had enough fun for the day?")
+
+
 
 # Acceleration/Deceleration Prompts
 def faster():
-    print("Car accelerates.")
+    print("Car speeds up a bit.")
 
+def fastest():
+    print("Now we're going SUPAAAAA FAST!")
 
 def slower():
-    print("Car decelerates.")
+    print("Slowing down a bit. Good call.")
+
+
 
 # Invalid Command Prompts
 def invalid():
@@ -54,27 +61,36 @@ def invalidName():
     print("""Trying to be mysterious, are we? 
 Atleast a single character for your name is required, buddy!""")
 
+
+
 # Exit Prompts
 def quit():
     print("Game shut down.")
 
 def bye():
-    print("Thank you for playing.")
+    print("Thanks for playing!")
 
 # Maximum Acceleration/Deceleration Reached Prompts
 def ceil():
-    print("Max speed reached. Cannot go faster.")
-
+    print("Max speed reached. We can't go faster than this!")
 
 def floor():
-    print("Lowest speed reached. Cannot go slower.")
+    print("We're already at the lowest setting.")
+    print("Stopping the car is the only way to go slower at this point!")
+
+
 
 # Car State Reminder Prompts
+def start():
+    print('''Car started! Type "help" for commands if needed!''')
+
 def started():
     print("Car is already started!")
 
 def stopped():
     print("Car is already stopped!")
+
+
 
 # Requirement Prompts
 def firstStartReq():
@@ -89,6 +105,11 @@ def startReq():
 def quitReq():
     print("Car must be stopped first before exiting the game.")
 
+def moving():
+    print("Car is still moving. Slow down to minimum speed first before stopping.")
+
+
+
 # Assurance for Invalid Answers for Input Prompts
 def firstQuitReq():
     return input("""You've typed in a command for exiting the game.
@@ -101,6 +122,8 @@ def needHelp():
 Are you sure you want to bring up list of commands? [y/n]
 
     > """)
+
+
 
 # Response Prompt for Invalid Answers
 def assurance():

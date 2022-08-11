@@ -5,7 +5,7 @@ outsideCar = True
 prompts.space()
 prompts.greeting()
 prompts.help()
-name = prompts.askName() 
+name = prompts.askName()
 
 while outsideCar is True:
     if len(name) < 1:
@@ -46,6 +46,7 @@ while outsideCar is True:
             prompts.space()
             wannaQuit = prompts.firstQuitReq()
             prompts.space()
+
             if wannaQuit.lower() == "y":
                 prompts.bye()
                 prompts.quit()
@@ -56,7 +57,7 @@ while outsideCar is True:
                 prompts.assurance()
                 name = prompts.secondAskName()
                 prompts.space()
-            
+
             else:
                 prompts.invalid()
                 prompts.space()
@@ -65,6 +66,7 @@ while outsideCar is True:
             prompts.space()
             wantHelp = prompts.needHelp() 
             prompts.space()
+
             if wantHelp.lower() == "y":
                 prompts.help()
                 name = prompts.secondAskName()
@@ -75,7 +77,7 @@ while outsideCar is True:
                 prompts.assurance()
                 name = prompts.secondAskName()
                 prompts.space()
-        
+
             else:
                 prompts.invalid()
                 prompts.space()
@@ -89,3 +91,4 @@ else:
     prompts.welcome(name)
     prompts.space()
     car.state()
+    

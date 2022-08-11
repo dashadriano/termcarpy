@@ -1,8 +1,7 @@
 <h1 align="center">termcarpy 🐍</h1>
-<p align="center">A py-written car game for CLIs. Work in-progress.</p>
+<p align="center">A py-written car game for CLIs.</p>
 
 ## 🐣 Termcarpy Origins:
-
 Rehauling/salvaging an old project of mine. One of the first python programs I've built out of boredom.
 
 Since I made this during my introduction-to-programming days, it's strictly a *text-based* game. 
@@ -21,9 +20,22 @@ Last version was a bit of a mess, not a lot of methods, as it was mainly built a
 
 Made a few changes like creating `conditions.py` for the car logic, after logging driver's name.
 
-## ➕ Moving Forward
+## ➕ Moving Forward:
 Still relatively new at this point, just trying out concepts I'll be learning like importing, class creation, and so on.
 
 New updates will most likely be stuff I will learn about Python in general that can contribute to this little project of mine.
 
 Totally open to constructive comments/suggestions! Still learning, and will most likely always be.
+
+## ❔ How this project has helped me so far:
+First: Woke me up, in a sense. Was always an introduction/crashcourse to (*insert new concept here*) kinda guy. During this project rehaul, I've looked at more documentation compared to the whole time I've spent learning Python bare-bones basics. 
+
+Also: First repository! 🐣 The concept of putting something out there that's public has always been nerve-wracking for me. Figured that I would learn more by actually doing something compared to just watching videos without implementing the concepts myself. Especially now that I've started to encounter more concepts such as different tech stacks. Obviously wasn't knowledgeable before about technology that much, as I coded this "game" through Python alone. *THROUGH PYTHON*. *A "GAME"*. 
+
+Had fun making this, it took me fairly quicker relative to the first time I coded this idea out, back when I was just starting to get acquainted with Python and programming in general.
+
+*For context*: I started programming (learning, atleast) through Mosh's <a href="https://www.youtube.com/watch?v=_uQrJ0TkZlc">introduction-to-programming</a> videos around the end of 2021. Skimming through them, atleast. I'd say I've gone over a few more hills, ups and downs, since then. It's fun. Exciting, in a sense. The more I learn, the less I seem to know. And that's perfectly fine. Gives me a chase. 
+
+Here's to getting better, fellow students of the chase! 🥂
+
+Lastly: Introduced me to using Git and Github. Reading documentations as I'm writing this, anxious with making mistakes. I may have already made mistakes in the previous commits, fortunately I don't think this'll get merged or further modified through reverts, for example, in the near future so commit messages without `issue ID tags`, for example, are somewhat tolerable. Moving forward though, I'm sure the issue will get resolved and I'll develop better documentation skills as I progress.

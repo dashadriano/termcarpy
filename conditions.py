@@ -12,22 +12,34 @@ class Car:
         prompts.help()
         while self.isNotStarted is True:
             gameCommand = input("> ")
-            if gameCommand.lower() == "start":
+
+            if gameCommand.lower() == "help":
+                prompts.help()
+                prompts.space()
+
+            elif gameCommand.lower() == "start":
                 if self.carStarted is True:
                     prompts.started()
                     prompts.space()
+
                 else:
                     self.carStarted = True
+                    prompts.start()
                     prompts.space()
 
             elif gameCommand.lower() == "stop":
-                if self.carStarted is False:
-                    prompts.stopped()
-                    prompts.space()
+                if self.speed == 0:
+                    if self.carStarted is False:
+                        prompts.stopped()
+                        prompts.space()
+
+                    else:
+                        prompts.stop()
+                        self.carStarted = False
+                        prompts.space()
 
                 else:
-                    prompts.stop()
-                    self.carStarted = False
+                    prompts.moving()
                     prompts.space()
 
             elif gameCommand.lower() == "faster":
@@ -42,6 +54,7 @@ class Car:
                         prompts.space()
 
                     else:
+                        prompts.fastest()
                         prompts.ceil()
                         prompts.space()
 
