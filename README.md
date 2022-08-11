@@ -13,7 +13,7 @@ Since I made this during my introduction-to-programming days, it's strictly a *t
 Playing with `termcarpy` requires all three Python files: 
 `main.py` `prompts.py` `conditions.py`
 
-Starting it will give you a basic layout of the commands, interact to check out command-logic interaction.
+Running `main.py` will give you a basic layout of the commands, eventually leading to the game. Interact to check out command-logic interaction, or feel free to simply view logic on `conditions.py` and prompts at `prompts.py`
 
 ## ⚠ Termcarpy Background:
 Last version was a bit of a mess, not a lot of methods, as it was mainly built as it went. 
