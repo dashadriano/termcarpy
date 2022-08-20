@@ -35,3 +35,6 @@ Also: First repository! The concept of putting something out there that's public
 Had fun making this, it took me fairly quicker relative to the first time I coded this idea out, back when I was just starting to get acquainted with Python and programming in general.
 
 Lastly: Introduced me to using Git and Github. Reading documentations as I'm writing this, anxious with making mistakes. I may have already made mistakes in the previous commits, fortunately I don't think this'll get merged or further modified through reverts, for example, in the near future so commit messages without `issue ID tags`, for example, are somewhat tolerable. Moving forward though, I'm sure the issue will get resolved and I'll develop better documentation skills as I progress.
+
+## Shoutout 
+Shoutout to Ken || Test 
